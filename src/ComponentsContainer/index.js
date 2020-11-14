@@ -26,7 +26,8 @@ class ComponentsContainer extends React.Component {
 			            id='fade-text'
 			            style={{
 			              padding: '20px',
-			              color: '#242c33'
+			              color: '#242c33',
+			              backgroundColor:'#f8f9fa'
 			            }}
 			            >
 			              Let us make your Savannah vacation stay <span style={{}}>remarkable</span>
@@ -41,7 +42,7 @@ class ComponentsContainer extends React.Component {
 					<div style={{backgroundColor: '#dce1e6', height:"8000px"}}>
 			          <Image 
 			          src="/ur-home-about.jpeg" 
-			          width="80%"
+			          width="7%"
 			          />
 			            <h1 
 			            id='fade-text'
