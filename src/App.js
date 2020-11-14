@@ -33,7 +33,7 @@ class App extends React.Component {
   render (){
     return (
       <div className="App">
-        <Navbar bg="light" className="justify-content-between" sticky="top">
+        <Navbar bg="light" className="justify-content-between" sticky="top" style={{boxShadow:'0px 0px 7px 0px black'}}>
           <Nav>
           <Navbar.Brand onClick={this.handleChange} accessKey={'home'} href="home">
             U R Home
