@@ -42,7 +42,7 @@ class ComponentsContainer extends React.Component {
 					<div style={{backgroundColor: '#dce1e6', height:"8000px"}}>
 			          <Image 
 			          src="/ur-home-about.jpeg" 
-			          width="7%"
+			          width="73%"
 			          />
 			            <h1 
 			            id='fade-text'
