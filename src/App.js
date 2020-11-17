@@ -33,11 +33,13 @@ class App extends React.Component {
   render (){
     return (
       <div className="App">
-        <Navbar bg="light" className="justify-content-between" sticky="top" style={{boxShadow:'0px 0px 7px 0px black'}}>
-          <Nav>
+        <Navbar collapseOnSelect expand="lg" bg="light" className="justify-content-between" sticky="top" style={{boxShadow:'0px 0px 7px 0px black'}}>
           <Navbar.Brand onClick={this.handleChange} accessKey={'home'} href="home">
             U R Home
           </Navbar.Brand>
+          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+          <Navbar.Collapse id="responsive-navbar-nav">
+          <Nav className="mr-auto">
             <Nav.Link onClick={this.handleChange} accessKey={'home'} href="home">Home</Nav.Link>
             <Nav.Link onClick={this.handleChange} accessKey={'about'} href="about_us">About Us</Nav.Link>
             <NavDropdown title="Services" id="basic-nav-dropdown">
@@ -50,6 +52,7 @@ class App extends React.Component {
           <Nav>
             <Nav.Link onClick={this.handleChange} accessKey={'contact'} href="contact">Contact</Nav.Link>
           </Nav>
+          </Navbar.Collapse>
         </Navbar>
         <ComponentsContainer
         page={this.state.page}

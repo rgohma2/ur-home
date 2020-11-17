@@ -114,7 +114,11 @@ class ComponentsContainer extends React.Component {
 					?
 					<div style={{backgroundColor: '#dce1e6', height:"8000px"}}>
 			          <Image 
-			          src="https://i.ibb.co/2Mfk2FX/ur-home-luggage.jpg" 
+			          src="https://i.ibb.co/2Mfk2FX/ur-home-luggage.jpg"
+			          width="90%"
+			          style={{
+			          	padding: '0 5%'
+			          }} 
 			          />
 			            <h1 
 			            id='fade-text'
@@ -135,7 +139,7 @@ class ComponentsContainer extends React.Component {
 					<div style={{backgroundColor: '#dce1e6', height:"8000px"}}>
 			          <Image 
 			          src="https://i.ibb.co/DCMtWtL/ur-home-tours.jpg" 
-			          
+			          width="72%" 
 			          />
 			            <h1 
 			            id='fade-text'
