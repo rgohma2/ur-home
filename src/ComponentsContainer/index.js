@@ -11,6 +11,15 @@ class ComponentsContainer extends React.Component {
 		}
 	}
 
+	/*
+	https://ibb.co/zHq3nFW
+	https://ibb.co/54nFBfR
+	https://ibb.co/NNHyhFw
+	https://ibb.co/kJ2qbsC
+	https://ibb.co/FwYK3Kn
+	https://ibb.co/4FPdZkt
+	*/
+
 	render() {
 		return(
 			<div>
@@ -19,7 +28,7 @@ class ComponentsContainer extends React.Component {
 					?
 					<div style={{backgroundColor: '#dce1e6', height:"8000px"}}>
 			          <Image 
-			          src="/ur-home-background.jpg" 
+			          src="https://i.ibb.co/Nnc0Vrg/ur-home-background.jpg" 
 			          width="100%"
 			          />
 			            <h1 
@@ -41,7 +50,7 @@ class ComponentsContainer extends React.Component {
 					?
 					<div style={{backgroundColor: '#dce1e6', height:"8000px"}}>
 			          <Image 
-			          src="/ur-home-about.jpeg" 
+			          src="https://i.ibb.co/qjW5kPr/ur-home-about.jpg" 
 			          width="73%"
 			          />
 			            <h1 
@@ -62,7 +71,7 @@ class ComponentsContainer extends React.Component {
 					?
 					<div style={{backgroundColor: '#dce1e6', height:"8000px"}}>
 			          <Image 
-			          src="/ur-home-shopping.jpeg" 
+			          src="https://i.ibb.co/7QtrMdm/ur-home-shopping.jpg" 
 			          width="70%"
 			          />
 			            <h1 
@@ -83,7 +92,7 @@ class ComponentsContainer extends React.Component {
 					?
 					<div style={{backgroundColor: '#dce1e6', height:"8000px"}}>
 			          <Image 
-			          src="/ur-home-transportation.jpg"
+			          src="https://i.ibb.co/MgM6DdS/ur-home-transportation.jpg"
 			          width="70%" 
 			          
 			          />
@@ -105,7 +114,7 @@ class ComponentsContainer extends React.Component {
 					?
 					<div style={{backgroundColor: '#dce1e6', height:"8000px"}}>
 			          <Image 
-			          src="/ur-home-luggage.jpg" 
+			          src="https://i.ibb.co/2Mfk2FX/ur-home-luggage.jpg" 
 			          />
 			            <h1 
 			            id='fade-text'
@@ -125,7 +134,7 @@ class ComponentsContainer extends React.Component {
 					?
 					<div style={{backgroundColor: '#dce1e6', height:"8000px"}}>
 			          <Image 
-			          src="/ur-home-tours.jpg" 
+			          src="https://i.ibb.co/DCMtWtL/ur-home-tours.jpg" 
 			          
 			          />
 			            <h1 
